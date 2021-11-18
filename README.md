@@ -1,26 +1,6 @@
-### Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
 
 # Boas vindas ao repositório do Projeto Playground Functions!
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Atenção a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #VQV 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma `branch` específica e um _Pull Request_ para colocar seus códigos.
-
-# Sumário
-
-- [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Data de Entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-- [Como desenvolver](#como-desenvolver)
-  - [Linter](#linter)
-  - [Avaliador Automático](#avaliador-automático)
-- [Requisitos do projeto](#requisitos-do-projeto)
 
     `Requisitos obrigatórios:`
     - [1 - Crie uma função usando o operador &&](#1---crie-uma-função-usando-o-operador-)
@@ -55,33 +35,11 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - Utilizar o comando for/in ;
 - Utilizar funções para organizar e estruturar o seu código;
 
-# Entregáveis
-
-Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório.
-
-Este Pull Request deverá conter os arquivos `challenges.js` e `challenges2.js` com suas funções implementadas.
-
-Todas as funções já estão declaradas nos arquivos `challenges.js` e `challenges2.js`. Você pode criar outras funções para auxiliarem as já existentes. Contudo **Não altere o nome das funções que já existem**.
-
-**Os parâmetros das funções já existentes podem e devem ser alterados.**
-
-## ⚠️ É importante que seus arquivos não tenham o nome alterado! ⚠️
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
-
----
-
 ## O que deverá ser desenvolvido
 
 - Você vai implementar funções a partir de requisitos;
 - Você vai desenvolver funções seguindo os requisitos especificados para o correto comportamento de cada uma delas.
 
-## Data de Entrega
-
-  - Será `1` dia de projeto.
-  - Data de entrega para avaliação final do projeto: `01/06/2021 - 14:00h`.
-
-# Instruções para entregar seu projeto
 
 ## Antes de começar a desenvolver
 
@@ -126,24 +84,7 @@ Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://
   * **Não se preocupe em preencher mais nada por enquanto!**
   * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-013-a-project-playground-functions/pulls) e confira que o seu _Pull Request_ está criado. 😀
 
----
 
-## Durante o desenvolvimento
-
-* Faça `commits` das alterações que você fizer no código regularmente.
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto.
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-  5. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-
----
-
-## Como desenvolver
 
 ### Linter
 
@@ -152,20 +93,9 @@ Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mai
 ```bash
 npm run lint
 ```
-
-⚠ **NESTE PROJETO O ESLINT NÃO SERÁ AVALIADO. VOCÊ PODE RODAR O TESTE LOCALMENTE E FAZER AS CORREÇÕES SE DESEJAR! MAS SÓ APÓS TER ENTREGUE 100% DOS REQUISITOS 😉** ⚠
-
 ### Avaliador automático
 
 * Os requisitos do seu projeto são avaliados automaticamente
-
-Para verificar se a sua avaliação foi computada com sucesso, você pode verificar os **detalhes da execução do avaliador**.
-
-* Na página do seu _Pull Request_, acima do "botão de merge", procure por _**"Evaluator job"**_ e clique no link _**"Details"**_;
-
-* Na página que se abrirá, procure pela linha _**"Evaluator step"**_ e clique nela;
-
-* Caso tenha dúvidas, procure as pessoas instrutoras.
 
 Para rodar o avaliador automático localmente no seu projeto, execute um dos comandos abaixo:
 
@@ -492,23 +422,3 @@ String retornada:
 
 ---
 
-## Depois de terminar o desenvolvimento
-
-Para **"entregar"** seu projeto, siga os passos a seguir:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque outras pessoas estudantes da sua turma
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-013-a`
-
-Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
----
-
-# Avisos Finais
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido 😉.
